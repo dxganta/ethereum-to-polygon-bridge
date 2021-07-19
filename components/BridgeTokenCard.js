@@ -69,7 +69,7 @@ class BridgeTokenCard extends Component {
     return (
       <div>
         <div className='rounded-3xl mx-auto h-64 w-96 bg-white'>
-          <div className='p-4 bg-purple-100 h-4/6 rounded-t-3xl'>
+          <div className='p-4 bg-blue-100 h-4/6 rounded-t-3xl'>
             <div className='text-sm font-semibold bg-purple-200 text-purple-800 w-14 px-2 rounded'>
               FROM
             </div>
@@ -118,6 +118,11 @@ class BridgeTokenCard extends Component {
             <span>Transfer</span>
           )}
         </button>
+        <div className='text-black mt-10 text-center'>
+          Created with Love by @realdiganta. If this was of help to you, I am
+          gladly aceepting donations at
+          0xaf73867B57900b148Cfdc947bB1af9498cfb5488
+        </div>
       </div>
     );
   }

@@ -28,7 +28,7 @@ class Home extends Component {
             Connect Wallet
           </button> */}
         </div>
-        <div className='bg-blue-600 h-screen w-screen'>
+        <div className='bg-blue-400 h-screen w-screen'>
           <div className='pt-10'></div>
           <BridgeTokenCard />
         </div>

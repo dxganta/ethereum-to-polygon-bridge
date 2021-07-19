@@ -1,7 +1,9 @@
+const infuraId = '<INFURA_PROJECT_ID>';
+
 module.exports = {
   root: {
     goerli: {
-      RPC: '<GOERLI_RPC>',
+      RPC: 'https://goerli.infura.io/v3/' + infuraId,
       POSRootChainManager: '0xBbD7cBFA79faee899Eaf900F13C9065bF03B1A74',
       DERC20: '0x655F2166b0709cd575202630952D71E2bB0d61Af',
       DERC721: '0x084297B12F204Adb74c689be08302FA3f12dB8A7',
@@ -12,7 +14,7 @@ module.exports = {
       posEtherPredicate: '0xe2B01f3978c03D6DdA5aE36b2f3Ac0d66C54a6D5',
     },
     mainnet: {
-      RPC: '<ETHEREUM_MAINNET_RPC>',
+      RPC: 'https://mainnet.infura.io/v3/' + infuraId,
       POSRootChainManager: '0xA0c68C638235ee32657e8f720a23ceC1bFc77C77',
       posERC20Predicate: '0x40ec5B33f54e0E8A33A975908C5BA1c14e5BbbDf',
       posERC721Predicate: '0xE6F45376f64e1F568BD1404C155e5fFD2F80F7AD',
@@ -22,14 +24,14 @@ module.exports = {
   },
   child: {
     polygon_mumbai: {
-      RPC: '<POLYGON_MUMBAI_RPC>',
+      RPC: 'https://polygon-mumbai.infura.io/v3/' + infuraId,
       DERC20: '0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1',
       DERC721: '0x757b1BD7C12B81b52650463e7753d7f5D0565C0e',
       DERC1155: '0xA07e45A987F19E25176c877d98388878622623FA',
       MaticWETH: '0x714550C2C1Ea08688607D86ed8EeF4f5E4F22323',
     },
     polygon_mainnet: {
-      RPC: '<POLYGON_MAINNET_RPC>',
+      RPC: 'https://polygon-mainnet.infura.io/v3/' + infuraId,
     },
   },
   tokenToAddressMap: {
