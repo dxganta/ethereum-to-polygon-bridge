@@ -15,3 +15,8 @@ npm i
 To add more tokens, you will need the ethereum contract address & the polygon contract address for that token. Then add that to the tokenToAddressMap object in the config.js file (taking example from the image above). Also add "mainnet" list in the erc20Tokens object. 
 
 To add the image for a token, add the png file to the public directory. Make sure to rename the file to the name of the token (token.png)
+
+4. To run the dapp
+```
+npm run dev
+```
