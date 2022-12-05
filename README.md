@@ -7,7 +7,7 @@
 ```
 npm i
 ```
-2. Sign in to [Infura](https://infura.io/), create a new project, copy your project id and put it into the "infuraId" constant in the [config.js](https://github.com/realdiganta/ethereum-to-polygon-bridge/blob/main/config.js) file.<br>
+2. Sign in to [Infura](https://infura.io/), create a new project, copy your project id and put it into the "infuraId" constant in the [config.js](https://github.com/realdiganta/ethereum-to-polygon-bridge/blob/main/config.js) file. Besides Infura, you can also use other developer platforms like [Alchemy](https://docs.alchemy.com/docs/alchemy-quickstart-guide) or [Quicknode](https://quicknode.com). <br>
 <img src="https://user-images.githubusercontent.com/47485188/126146427-cc183c41-f50f-499f-bee8-ed2407b62e86.png"></img>
 
 3. Currently, I have added only 3 tokens for the mainnet (DAI, USDC, USDT). (derc20 is a test token for the testnet) <br>
@@ -20,3 +20,5 @@ To add the image for a token, add the png file to the public directory. Make sur
 ```
 npm run dev
 ```
+
+5. Additional tutorial – if you're interested in smart contract deployment on Polygon, here's a [beginner tutorial](https://docs.alchemy.com/docs/how-to-code-and-deploy-a-polygon-smart-contract)
